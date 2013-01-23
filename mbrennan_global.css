@@ -72,9 +72,8 @@ html, body{
 	text-align:left;
 	margin:100px auto; /* just a bit of space for demo purposes */
 	color:#000;
-	
-	/*font-family: 'Droid Sans', sans-serif;*/
-	font-family: 'myriad pro', sans-serif;
+	font-family: 'Droid Sans', sans-serif;
+
 }
 
 /* global styles*/
@@ -151,20 +150,20 @@ html, body{
 
 
 #pg .pg-hd .pg-mod-hero .mod-hd h2{
-	font-size:50px;
+	font-size:45px;
 	font-weight:bold;	
 	line-height:50px;
 	margin-bottom:30px;
 }
 
 #pg .pg-hd .pg-mod-hero .mod-hd h2 span{
-	font-size:32px;
+	font-size:27px;
 	display:block;
-	line-height:30px;
+	line-height:25px;
 }
 
 #pg .pg-hd .pg-mod-hero .mod-hd p{
-	font-size:16px;
+	font-size:15px;
 	margin-bottom:35px;
 }
 
