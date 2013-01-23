@@ -82,11 +82,13 @@ html, body{
 
 #pg .pg-btn.pg-btn-red{	
 	box-shadow:0px 0px 1px 4px #d5d5d5;	
+	background-color:#eb1212;
 	background-image: -moz-linear-gradient(#eb1212 0%,#c30000 100%);
 	background-image: -webkit-gradient(linear,top, bottom,color-stop(0, #eb1212),color-stop(1, #c30000));
 	background: -webkit-linear-gradient(#eb1212 0%, #c30000 100%);
 	background: -ms-linear-gradient(#eb1212 0%, #c30000 100%);
 	background: linear-gradient(to bottom, #eb1212 0%, #c30000 100%);
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#eb1212', endColorstr='#c30000')";
 	border-radius:5px;
 	border:1px solid #ab0404;
 	display:inline-block;
@@ -106,6 +108,7 @@ html, body{
 	background: -webkit-linear-gradient(#c30000 0%, #eb1212 100%);
 	background: -ms-linear-gradient(#c30000 0%, #eb1212 100%);
 	background:linear-gradient(to bottom, #c30000 0%, #eb1212 100% );
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#c30000', endColorstr='#eb1212')";
 	background-color:#c30000;
 }
 
@@ -136,7 +139,7 @@ html, body{
 	background-image: -moz-linear-gradient(left top,#eeeeee 0%,#FFFFFF 60%);
 	background-image: -webkit-gradient(linear,left top, left bottom,color-stop(0, #eeeeee),color-stop(0.6, #FFFFFF));
 	background: -webkit-linear-gradient(left top, #eeeeee 0%, #ffffff 60%);
-	background: -ms-linear-gradient(left top, #eeeeee 0%, #ffffff 60%);
+	background: -ms-linear-gradient(left top, #eeeeee 0%, #ffffff 60%);	
 	/* Standards complient example */
 	background: linear-gradient(to bottom right, #eeeeee 0%, #ffffff 60%);		
 	position:relative;
@@ -145,7 +148,7 @@ html, body{
 
 #pg .pg-hd .pg-mod-hero .mod-hd{
 	float:left;
-	width:420px;
+	width:430px;
 	margin:60px 0px 0px 60px;
 }
 
