@@ -149,8 +149,8 @@ html, body{
 
 #pg .pg-hd .pg-mod-hero .mod-hd{
 	float:left;
-	width:430px;
-	margin:60px 0px 0px 60px;
+	width:435px;
+	margin:55px 0px 0px 60px;
 }
 
 
@@ -162,7 +162,7 @@ html, body{
 }
 
 #pg .pg-hd .pg-mod-hero .mod-hd h2 span{
-	font-size:32px;
+	font-size:31px;
 	display:block;
 	line-height:30px;
 }
