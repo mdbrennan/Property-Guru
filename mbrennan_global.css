@@ -139,7 +139,8 @@ html, body{
 	background-image: -moz-linear-gradient(left top,#eeeeee 0%,#FFFFFF 60%);
 	background-image: -webkit-gradient(linear,left top, left bottom,color-stop(0, #eeeeee),color-stop(0.6, #FFFFFF));
 	background: -webkit-linear-gradient(left top, #eeeeee 0%, #ffffff 60%);
-	background: -ms-linear-gradient(left top, #eeeeee 0%, #ffffff 60%);	
+	background: -ms-linear-gradient(left top, #eeeeee 0%, #ffffff 60%);
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#eeeeee', endColorstr='#FFFFFF')";	
 	/* Standards complient example */
 	background: linear-gradient(to bottom right, #eeeeee 0%, #ffffff 60%);		
 	position:relative;
